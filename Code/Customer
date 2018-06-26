@@ -1,0 +1,18 @@
+public class Customer {
+//The customer object
+	String name;
+	int cusID;
+	int age;
+	double bill;
+	
+	void info() {
+		System.out.print("Customer name: ");
+		System.out.println(name);
+		System.out.print("Customer ID: ");
+		System.out.println(cusID);
+		System.out.print("Customer age: ");
+		System.out.println(age);
+		System.out.print("Customer Bill: ");
+		System.out.println(bill);
+	}
+}

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class CustomerDatabase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Customer newCustomer = new Customer();
+		Scanner scnr = new Scanner(System.in);
+		System.out.println("Enter the customers name: ");
+		newCustomer.name = scnr.nextLine();
+		System.out.println("Enter the customers Customer ID: ");
+		newCustomer.cusID = scnr.nextInt();
+		System.out.println("Enter the customers age: ");
+		newCustomer.age = scnr.nextInt();
+		System.out.println("Enter the customers bill: ");
+		newCustomer.bill = scnr.nextDouble();
+		newCustomer.info();
+	}
+
+}
